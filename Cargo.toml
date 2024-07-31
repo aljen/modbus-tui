@@ -2,5 +2,14 @@
 name = "modbus-tui"
 version = "0.1.0"
 edition = "2021"
+authors = ["Artur Wyszyński <artur.wyszynski@wildpixelgames.com>"]
+description = "A Rust-based Modbus client with a text user interface (TUI) for easy communication with Modbus devices."
+homepage = "https://github.com/aljen/modbus-tui"
+repository = "https://github.com/aljen/modbus-tui"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+exclude = [".github/**/*"]
+keywords = ["hardware", "modbus", "tui", "client"]
+categories = ["command-line-interface", "embedded", "hardware-support"]
 
 [dependencies]
